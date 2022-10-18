@@ -27,7 +27,7 @@ public class TestController {
     
     
      @GetMapping("test")
-    public String getHello(){
+    public String getTest(){
         
         
         return "its works !!";
