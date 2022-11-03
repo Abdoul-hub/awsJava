@@ -32,4 +32,11 @@ public class TestController {
         
         return "its works !!";
     }
+    
+    @GetMapping("hello")
+    public String getSayHelloWord(){
+        
+        
+        return "hello word !!";
+    }
 }
