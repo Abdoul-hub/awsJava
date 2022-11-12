@@ -39,4 +39,12 @@ public class TestController {
         
         return "hello word !!";
     }
+    
+    
+    @GetMapping("test-aws-endpoint")
+    public String getTestPres(){
+        
+        
+        return "its works aws !!";
+    }
 }
